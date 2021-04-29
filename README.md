@@ -3,7 +3,7 @@
 ## Install
 
 ```js
-npm i eslint @code-convention/eslint-config
+npm i -D eslint @code-convention/eslint-config
 ```
 
 ## Usage

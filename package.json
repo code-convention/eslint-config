@@ -2,13 +2,13 @@
   "name": "@code-convention/eslint-config",
   "version": "1.0.0",
   "description": "zcvfcat-eslint",
-  "homepage": "https://github.com/code-convention/stylelint-config",
+  "homepage": "https://github.com/code-convention/eslint-config",
   "repository": {
     "type": "git",
-    "url": "https://github.com/code-convention/stylelint-config.git"
+    "url": "https://github.com/code-convention/eslint-config.git"
   },
   "bugs": {
-    "url": "https://github.com/code-convention/stylelint-config/issues",
+    "url": "https://github.com/code-convention/eslint-config/issues",
     "email": "zcvfcat@gmail.com"
   },
   "keywords": [
@@ -18,7 +18,7 @@
   ],
   "main": ".eslintrc.js",
   "scripts": {
-    "lint:fix": "eslint --ext .jsx,.js,.tsx,.ts src/ --fix"
+    "fix:lint": "eslint --ext .jsx,.js,.tsx,.ts src/ --fix"
   },
   "author": "zcvfcat zcvfcat@gmail.com (https://zcvfcat.github.io)",
   "license": "MIT",
