@@ -1,4 +1,5 @@
 module.exports = {
+  extends: ['./rules/eslint.js'],
   plugins: ['babel'],
   parserOptions: {
     parser: 'babel-eslint',
@@ -12,7 +13,7 @@ module.exports = {
   overrides: [
     {
       parser: '@typescript-eslint/parser',
-      extends: ['./config/@typescript-eslint.js'],
+      extends: ['./rules/@typescript-eslint.js'],
       plugins: ['@typescript-eslint/eslint-plugin'],
       files: ['*.ts', '*.tsx'],
       parserOptions: {
